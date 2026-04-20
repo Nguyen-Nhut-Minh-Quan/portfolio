@@ -581,7 +581,7 @@ export default function QuanPortfolioSite() {
                   </p>
                 </div>
                 <div className="button-row" style={{ justifyContent: 'center', width: '100%' }}>
-                  <a href="/Resume.pdf" target="_blank" rel="noreferrer" className="btn btn-primary">
+                  <a href={`${import.meta.env.BASE_URL}Resume.pdf`} target="_blank" rel="noreferrer" className="btn btn-primary">
                     Download Resume
                   </a>
                 </div>
