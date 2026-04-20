@@ -184,6 +184,7 @@ export default function QuanPortfolioSite() {
           flex-wrap: wrap;
           gap: 14px;
           margin-top: 30px;
+          justify-content: center;
         }
 
         .btn {
